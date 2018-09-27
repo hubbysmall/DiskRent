@@ -1,0 +1,15 @@
+C:\Users\vova\source\repos\DiskRent\Forms\bin\Debug\Forms.exe.config
+C:\Users\vova\source\repos\DiskRent\Forms\bin\Debug\Forms.exe
+C:\Users\vova\source\repos\DiskRent\Forms\bin\Debug\Forms.pdb
+C:\Users\vova\source\repos\DiskRent\Forms\bin\Debug\Models.dll
+C:\Users\vova\source\repos\DiskRent\Forms\bin\Debug\Models.pdb
+C:\Users\vova\source\repos\DiskRent\Forms\bin\Debug\Models.dll.config
+C:\Users\vova\source\repos\DiskRent\Forms\obj\Debug\Forms.csprojAssemblyReference.cache
+C:\Users\vova\source\repos\DiskRent\Forms\obj\Debug\Forms.Form1.resources
+C:\Users\vova\source\repos\DiskRent\Forms\obj\Debug\Forms.Histogram.resources
+C:\Users\vova\source\repos\DiskRent\Forms\obj\Debug\Forms.Properties.Resources.resources
+C:\Users\vova\source\repos\DiskRent\Forms\obj\Debug\Forms.csproj.GenerateResource.cache
+C:\Users\vova\source\repos\DiskRent\Forms\obj\Debug\Forms.csproj.CoreCompileInputs.cache
+C:\Users\vova\source\repos\DiskRent\Forms\obj\Debug\Forms.csproj.CopyComplete
+C:\Users\vova\source\repos\DiskRent\Forms\obj\Debug\Forms.exe
+C:\Users\vova\source\repos\DiskRent\Forms\obj\Debug\Forms.pdb

@@ -28,13 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.histogram1 = new Forms.Histogram();
+            this.SuspendLayout();
+            // 
+            // histogram1
+            // 
+            this.histogram1.Location = new System.Drawing.Point(12, 12);
+            this.histogram1.Name = "histogram1";
+            this.histogram1.Size = new System.Drawing.Size(494, 264);
+            this.histogram1.TabIndex = 0;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.histogram1);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private Histogram histogram1;
     }
 }
 
