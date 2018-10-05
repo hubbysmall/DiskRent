@@ -1,0 +1,17 @@
+C:\Users\vova\source\repos\DiskRent\Service\bin\Debug\Service.dll.config
+C:\Users\vova\source\repos\DiskRent\Service\bin\Debug\Service.dll
+C:\Users\vova\source\repos\DiskRent\Service\bin\Debug\Service.pdb
+C:\Users\vova\source\repos\DiskRent\Service\bin\Debug\CsvHelper.dll
+C:\Users\vova\source\repos\DiskRent\Service\bin\Debug\EntityFramework.dll
+C:\Users\vova\source\repos\DiskRent\Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vova\source\repos\DiskRent\Service\bin\Debug\Models.dll
+C:\Users\vova\source\repos\DiskRent\Service\bin\Debug\Models.pdb
+C:\Users\vova\source\repos\DiskRent\Service\bin\Debug\Models.dll.config
+C:\Users\vova\source\repos\DiskRent\Service\bin\Debug\CsvHelper.xml
+C:\Users\vova\source\repos\DiskRent\Service\bin\Debug\EntityFramework.xml
+C:\Users\vova\source\repos\DiskRent\Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vova\source\repos\DiskRent\Service\obj\Debug\Service.csprojAssemblyReference.cache
+C:\Users\vova\source\repos\DiskRent\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\vova\source\repos\DiskRent\Service\obj\Debug\Service.csproj.CopyComplete
+C:\Users\vova\source\repos\DiskRent\Service\obj\Debug\Service.dll
+C:\Users\vova\source\repos\DiskRent\Service\obj\Debug\Service.pdb

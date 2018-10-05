@@ -35,7 +35,7 @@
             // 
             // do_statistics_button
             // 
-            this.do_statistics_button.Location = new System.Drawing.Point(416, 238);
+            this.do_statistics_button.Location = new System.Drawing.Point(254, 185);
             this.do_statistics_button.Name = "do_statistics_button";
             this.do_statistics_button.Size = new System.Drawing.Size(75, 23);
             this.do_statistics_button.TabIndex = 0;
@@ -47,7 +47,7 @@
             // 
             this.picHistoPictureBox.Location = new System.Drawing.Point(3, 3);
             this.picHistoPictureBox.Name = "picHistoPictureBox";
-            this.picHistoPictureBox.Size = new System.Drawing.Size(488, 229);
+            this.picHistoPictureBox.Size = new System.Drawing.Size(326, 176);
             this.picHistoPictureBox.TabIndex = 1;
             this.picHistoPictureBox.TabStop = false;
             // 
@@ -58,7 +58,7 @@
             this.Controls.Add(this.picHistoPictureBox);
             this.Controls.Add(this.do_statistics_button);
             this.Name = "Histogram";
-            this.Size = new System.Drawing.Size(494, 264);
+            this.Size = new System.Drawing.Size(331, 215);
             ((System.ComponentModel.ISupportInitialize)(this.picHistoPictureBox)).EndInit();
             this.ResumeLayout(false);
 

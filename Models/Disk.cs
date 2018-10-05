@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace Models
 {
-    public class Disk : Control
+    public class Disk 
     {
         public int Id { get; set; }
 
