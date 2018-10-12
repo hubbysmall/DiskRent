@@ -53,7 +53,9 @@ namespace Service
             {
                 try
                 {
-                    Disk element = context.Disks.FirstOrDefault(rec => rec.Id == disk.Id);                   
+                    Disk element = context.Disks.FirstOrDefault(rec => rec.Id == disk.Id);
+                    context.Disks.Remove(element);
+                    context.SaveChanges();
                     transaction.Commit();
                 }
                 catch (Exception)

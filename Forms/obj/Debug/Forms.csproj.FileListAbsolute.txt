@@ -39,3 +39,44 @@ C:\Users\vova\source\repos\DiskRent\Forms\bin\Debug\Unity.ServiceLocation.pdb
 C:\Users\vova\source\repos\DiskRent\Forms\bin\Debug\Service.dll
 C:\Users\vova\source\repos\DiskRent\Forms\bin\Debug\Service.pdb
 C:\Users\vova\source\repos\DiskRent\Forms\bin\Debug\Service.dll.config
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Forms.exe.config
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Forms.exe
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Forms.pdb
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\CommonServiceLocator.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\CsvHelper.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\EntityFramework.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\EntityFramework.SqlServer.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Models.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Service.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Unity.Abstractions.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Unity.Configuration.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Unity.Container.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Unity.Interception.Configuration.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Unity.Interception.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Unity.RegistrationByConvention.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Unity.ServiceLocation.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Models.pdb
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Models.dll.config
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Service.pdb
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Service.dll.config
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\CommonServiceLocator.pdb
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\CsvHelper.xml
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\EntityFramework.xml
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\EntityFramework.SqlServer.xml
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Unity.Abstractions.pdb
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Unity.Configuration.pdb
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Unity.Container.pdb
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Unity.Interception.pdb
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Unity.Interception.Configuration.pdb
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Unity.RegistrationByConvention.pdb
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\bin\Debug\Unity.ServiceLocation.pdb
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\obj\Debug\Forms.csprojResolveAssemblyReference.cache
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\obj\Debug\Forms.Form1.resources
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\obj\Debug\Forms.Histogram.resources
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\obj\Debug\Forms.Properties.Resources.resources
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\obj\Debug\Forms.csproj.GenerateResource.Cache
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\obj\Debug\Forms.csproj.CoreCompileInputs.cache
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\obj\Debug\Forms.exe
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\obj\Debug\Forms.pdb
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\obj\Debug\Forms.ComponentDisk.resources

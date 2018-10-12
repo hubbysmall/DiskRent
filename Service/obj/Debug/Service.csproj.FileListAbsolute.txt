@@ -15,3 +15,21 @@ C:\Users\vova\source\repos\DiskRent\Service\obj\Debug\Service.csproj.CoreCompile
 C:\Users\vova\source\repos\DiskRent\Service\obj\Debug\Service.csproj.CopyComplete
 C:\Users\vova\source\repos\DiskRent\Service\obj\Debug\Service.dll
 C:\Users\vova\source\repos\DiskRent\Service\obj\Debug\Service.pdb
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\bin\Debug\Service.dll.config
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\bin\Debug\Service.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\bin\Debug\Service.pdb
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\bin\Debug\CsvHelper.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\bin\Debug\EntityFramework.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\bin\Debug\Models.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\bin\Debug\Models.pdb
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\bin\Debug\Models.dll.config
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\bin\Debug\CsvHelper.xml
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\bin\Debug\EntityFramework.xml
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\obj\Debug\Service.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\obj\Debug\Service.pdb
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\obj\Debug\Service.Migrations.InitialCreate.resources
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\obj\Debug\Service.csproj.GenerateResource.Cache

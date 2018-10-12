@@ -4,3 +4,14 @@ C:\Users\vova\source\repos\DiskRent\Models\bin\Debug\Models.pdb
 C:\Users\vova\source\repos\DiskRent\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
 C:\Users\vova\source\repos\DiskRent\Models\obj\Debug\Models.dll
 C:\Users\vova\source\repos\DiskRent\Models\obj\Debug\Models.pdb
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Models\bin\Debug\Models.dll.config
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Models\bin\Debug\Models.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Models\bin\Debug\Models.pdb
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Models\obj\Debug\Models.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Models\obj\Debug\Models.pdb
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Models\bin\Debug\EntityFramework.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Models\bin\Debug\EntityFramework.xml
+D:\1_Учеба\3 курс\КОП\DiskRent-master\Models\bin\Debug\EntityFramework.SqlServer.xml

@@ -1,14 +1,6 @@
-﻿using CsvHelper;
-using Models;
+﻿using Models;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Forms
@@ -31,6 +23,11 @@ namespace Forms
         private void Form1_Load(object sender, EventArgs e)
         {
             diskBindingSource.DataSource = new List<Disk>();
+        }
+
+        private void button_createReport_Click(object sender, EventArgs e)
+        {
+            componentReport.saveExcelFile();
         }
     }
 }
