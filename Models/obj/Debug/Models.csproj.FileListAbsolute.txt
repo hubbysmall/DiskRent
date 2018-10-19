@@ -15,3 +15,9 @@ D:\1_Учеба\3 курс\КОП\DiskRent-master\Models\bin\Debug\EntityFramewo
 D:\1_Учеба\3 курс\КОП\DiskRent-master\Models\bin\Debug\EntityFramework.SqlServer.dll
 D:\1_Учеба\3 курс\КОП\DiskRent-master\Models\bin\Debug\EntityFramework.xml
 D:\1_Учеба\3 курс\КОП\DiskRent-master\Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vova\source\repos\DiskRent\Models\bin\Debug\EntityFramework.dll
+C:\Users\vova\source\repos\DiskRent\Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vova\source\repos\DiskRent\Models\bin\Debug\EntityFramework.xml
+C:\Users\vova\source\repos\DiskRent\Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vova\source\repos\DiskRent\Models\obj\Debug\Models.csprojAssemblyReference.cache
+C:\Users\vova\source\repos\DiskRent\Models\obj\Debug\Models.csproj.CopyComplete

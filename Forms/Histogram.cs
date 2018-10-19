@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
 using Service;
+using System.Data.SqlClient;
+using Models;
 
 namespace Forms
 {
@@ -28,27 +30,56 @@ namespace Forms
         private List<GenreGroupViewModel> DataValues;
         private Label[] Labels = new Label[10];
 
+        public Boolean testCon()
+        {
+            try
+            {
+                Disk element = context.Disks.First();
+                if (element != null)
+                    return true;
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message, "Ошhhhhhhибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            return false;
+        }
+
 
         private List<GenreGroupViewModel> GenreCount()
         {
-            return context.Disks.GroupBy(d => d.genre).Select(g => new GenreGroupViewModel { GenreName = g.Key, GenreCount = g.Count() }).ToList();
+            try
+            {
+                return context.Disks.GroupBy(d => d.genre).Select(g => new GenreGroupViewModel { GenreName = g.Key, GenreCount = g.Count() }).ToList();
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show("No SQL connection " + ex, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            return null;
         }
 
-        private void initialize_data()
+        private Boolean initialize_data()
         {
             DataValues = GenreCount();
 
-            for (int i = 0; i < DataValues.Count; i++)
-            {
-                //DataValues[i] = rnd.Next(MIN_VALUE + 5, MAX_VALUE - 5);
-            
-                Labels[i] = new Label();
-                Labels[i].Parent = picHistoPictureBox;
-                Labels[i].Text = DataValues[i].GenreName;
-                Labels[i].ForeColor = Color.Black;
-                Labels[i].BackColor = Color.Transparent;
-                Labels[i].AutoSize = true;
+            if (DataValues != null) {
+
+                for (int i = 0; i < DataValues.Count; i++)
+                {
+                    //DataValues[i] = rnd.Next(MIN_VALUE + 5, MAX_VALUE - 5);
+
+                    Labels[i] = new Label();
+                    Labels[i].Parent = picHistoPictureBox;
+                    Labels[i].Text = DataValues[i].GenreName;
+                    Labels[i].ForeColor = Color.Black;
+                    Labels[i].BackColor = Color.Transparent;
+                    Labels[i].AutoSize = true;
+                }
+                return true;
             }
+            return false;
         }
 
         private void DrawHistogram(Graphics gr, Color back_color, List<GenreGroupViewModel> values, int width, int height)
@@ -105,11 +136,14 @@ namespace Forms
 
         private void do_statistics_button_Click(object sender, EventArgs e)
         {
-            initialize_data();
-
-            picHistoPictureBox.Image = new Bitmap(500, 500);
-            Graphics g = Graphics.FromImage(picHistoPictureBox.Image);
-            DrawHistogram(g, Color.AntiqueWhite, DataValues,  326,  176);
+            if (testCon())
+            {
+                initialize_data();
+                picHistoPictureBox.Image = new Bitmap(500, 500);
+                Graphics g = Graphics.FromImage(picHistoPictureBox.Image);
+                DrawHistogram(g, Color.AntiqueWhite, DataValues, 326, 176);
+            }
+     
         }
     }
 }

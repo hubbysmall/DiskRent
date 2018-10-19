@@ -17,14 +17,36 @@ namespace Forms
 
         private DiskService service;
 
-        public ComponentDisk()
+        public Boolean testCon()
         {
-            InitializeComponent();
-            context = new RentDbContext();
-            service = new DiskService(context);
+            try
+            {
+                Disk element = context.Disks.First();
+                if (element != null)
+                    return true;
+            }
+            catch (Exception ex)
+            {
+                button_addDisk.Enabled = false;
+                button_deleteDisk.Enabled = false;
+                MessageBox.Show(ex.Message, "Ошhhhhhhибка", MessageBoxButtons.OK, MessageBoxIcon.Error);               
+            }
+            return false;
+        }
 
+
+        public ComponentDisk()
+        {                    
+            InitializeComponent(); 
+            context = new RentDbContext();
             panel.Hide();
-            LoadData();
+
+            if (testCon())
+            {
+                service = new DiskService(context);
+                
+                LoadData();
+            }  
         }
 
 

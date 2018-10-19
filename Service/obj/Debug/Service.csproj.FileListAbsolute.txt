@@ -33,3 +33,5 @@ D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\obj\Debug\Service.dll
 D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\obj\Debug\Service.pdb
 D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\obj\Debug\Service.Migrations.InitialCreate.resources
 D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\obj\Debug\Service.csproj.GenerateResource.Cache
+C:\Users\vova\source\repos\DiskRent\Service\obj\Debug\Service.Migrations.InitialCreate.resources
+C:\Users\vova\source\repos\DiskRent\Service\obj\Debug\Service.csproj.GenerateResource.cache

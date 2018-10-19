@@ -22,6 +22,22 @@ namespace Service
             context = new RentDbContext();
         }
 
+        public Boolean testCon()
+        {
+            try
+            {
+                Disk element = context.Disks.First();
+                if (element != null)
+                    return true;
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message, "Ошhhhhhhибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            return false;
+        }
+
         public void createExcel(string FileName)
         {
             var excel = new Microsoft.Office.Interop.Excel.Application();
@@ -127,22 +143,26 @@ namespace Service
 
         public void saveExcelFile()
         {
-            SaveFileDialog sfd = new SaveFileDialog
+            if (testCon())
             {
-                Filter = "xls|*.xls|xlsx|*.xlsx"
-            };
-            if (sfd.ShowDialog() == DialogResult.OK)
-            {
-                try
+                SaveFileDialog sfd = new SaveFileDialog
                 {
-                    createExcel(sfd.FileName);                    
-                    MessageBox.Show("Выполнено", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                catch (Exception ex)
+                    Filter = "xls|*.xls|xlsx|*.xlsx"
+                };
+                if (sfd.ShowDialog() == DialogResult.OK)
                 {
-                    MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    try
+                    {
+                        createExcel(sfd.FileName);
+                        MessageBox.Show("Выполнено", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
+            
         }
     }
 }

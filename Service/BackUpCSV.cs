@@ -20,65 +20,46 @@ namespace Service
             context = new RentDbContext();
         }
 
-        public void examp()
-        {       
-    
-
-            Disk element2 = new Disk
+        public Boolean testCon()
+        {
+            try
             {
-                name = "titanic",
-                genre = "thriller",
-                description = "titanic",
-                country = "titanic",
-                director = "titanic"
-            };
-            context.Disks.Add(element2);
-            context.SaveChanges();
-
-            Disk element3 = new Disk
+                Disk element = context.Disks.First();
+                if (element != null)
+                    return true;
+            }
+            catch (Exception ex)
             {
-                name = "titanic",
-                genre = "misteria",
-                description = "titanic",
-                country = "titanic",
-                director = "titanic"
-            };
-            context.Disks.Add(element3);
-            context.SaveChanges();
-
-            Disk element4 = new Disk
-            {
-                name = "titanic",
-                genre = "shit",
-                description = "titanic",
-                country = "titanic",
-                director = "titanic"
-            };
-            context.Disks.Add(element4);
-            context.SaveChanges();
-
+               
+                MessageBox.Show(ex.Message, "Ошhhhhhhибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            return false;
         }
+
 
         public void saveToCSV()
         {
-            using (SaveFileDialog sfd = new SaveFileDialog() { Filter = "CSV|*.csv", ValidateNames = true })
+            if (testCon())
             {
-                if (sfd.ShowDialog() == DialogResult.OK)
+                using (SaveFileDialog sfd = new SaveFileDialog() { Filter = "CSV|*.csv", ValidateNames = true })
                 {
-                    using (var sw = new StreamWriter(sfd.FileName))
+                    if (sfd.ShowDialog() == DialogResult.OK)
                     {
-                        var writer = new CsvWriter(sw);
-                        writer.WriteHeader(typeof(Disk));
-                        writer.NextRecord();
-                        foreach (Disk d in context.Disks.ToList() as List<Disk>)
+                        using (var sw = new StreamWriter(sfd.FileName))
                         {
-                            writer.WriteRecord(d);
+                            var writer = new CsvWriter(sw);
+                            writer.WriteHeader(typeof(Disk));
                             writer.NextRecord();
+                            foreach (Disk d in context.Disks.ToList() as List<Disk>)
+                            {
+                                writer.WriteRecord(d);
+                                writer.NextRecord();
+                            }
                         }
+                        MessageBox.Show("saved", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
-                    MessageBox.Show("saved", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-            }
+            }        
         }
     }
 }

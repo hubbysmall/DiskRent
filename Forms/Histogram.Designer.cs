@@ -35,11 +35,11 @@
             // 
             // do_statistics_button
             // 
-            this.do_statistics_button.Location = new System.Drawing.Point(254, 185);
+            this.do_statistics_button.Location = new System.Drawing.Point(186, 185);
             this.do_statistics_button.Name = "do_statistics_button";
-            this.do_statistics_button.Size = new System.Drawing.Size(75, 23);
+            this.do_statistics_button.Size = new System.Drawing.Size(143, 23);
             this.do_statistics_button.TabIndex = 0;
-            this.do_statistics_button.Text = "do statistics";
+            this.do_statistics_button.Text = "Вывести гистограмму";
             this.do_statistics_button.UseVisualStyleBackColor = true;
             this.do_statistics_button.Click += new System.EventHandler(this.do_statistics_button_Click);
             // 
