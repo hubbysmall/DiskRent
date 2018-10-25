@@ -36,6 +36,8 @@
             this.histogram1 = new Forms.Histogram();
             this.backUpCSV1 = new Service.BackUpCSV();
             this.componentReport = new Service.ComponentReport();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.buttonOperation = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.diskBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,11 +79,31 @@
             this.histogram1.Size = new System.Drawing.Size(331, 215);
             this.histogram1.TabIndex = 0;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(688, 12);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 5;
+            // 
+            // buttonOperation
+            // 
+            this.buttonOperation.Location = new System.Drawing.Point(694, 57);
+            this.buttonOperation.Name = "buttonOperation";
+            this.buttonOperation.Size = new System.Drawing.Size(115, 23);
+            this.buttonOperation.TabIndex = 6;
+            this.buttonOperation.Text = "Do operation";
+            this.buttonOperation.UseVisualStyleBackColor = true;
+            this.buttonOperation.Click += new System.EventHandler(this.buttonOperation_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1115, 555);
+            this.Controls.Add(this.buttonOperation);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button_createReport);
             this.Controls.Add(this.componentDisk1);
             this.Controls.Add(this.buttonWrite);
@@ -103,6 +125,8 @@
         private ComponentDisk componentDisk1;
         private System.Windows.Forms.Button button_createReport;
         private Service.ComponentReport componentReport;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button buttonOperation;
     }
 }
 

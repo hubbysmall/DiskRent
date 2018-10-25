@@ -137,7 +137,7 @@ namespace Forms
         private void do_statistics_button_Click(object sender, EventArgs e)
         {
             if (testCon())
-            {
+            {               
                 initialize_data();
                 picHistoPictureBox.Image = new Bitmap(500, 500);
                 Graphics g = Graphics.FromImage(picHistoPictureBox.Image);

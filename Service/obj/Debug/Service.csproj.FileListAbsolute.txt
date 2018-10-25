@@ -35,3 +35,10 @@ D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\obj\Debug\Service.Migr
 D:\1_Учеба\3 курс\КОП\DiskRent-master\Service\obj\Debug\Service.csproj.GenerateResource.Cache
 C:\Users\vova\source\repos\DiskRent\Service\obj\Debug\Service.Migrations.InitialCreate.resources
 C:\Users\vova\source\repos\DiskRent\Service\obj\Debug\Service.csproj.GenerateResource.cache
+C:\Users\vova\source\repos\DiskRent\Service\bin\Debug\NLog.dll
+C:\Users\vova\source\repos\DiskRent\Service\bin\Debug\NLog.xml
+C:\Users\vova\source\repos\DiskRent\Service\bin\Debug\System.Composition.AttributedModel.dll
+C:\Users\vova\source\repos\DiskRent\Service\bin\Debug\System.Composition.Convention.dll
+C:\Users\vova\source\repos\DiskRent\Service\bin\Debug\System.Composition.Hosting.dll
+C:\Users\vova\source\repos\DiskRent\Service\bin\Debug\System.Composition.Runtime.dll
+C:\Users\vova\source\repos\DiskRent\Service\bin\Debug\System.Composition.TypedParts.dll
