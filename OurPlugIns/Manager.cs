@@ -25,7 +25,8 @@ namespace OurPlugIns
         public Manager()
         {
             AggregateCatalog catalog = new AggregateCatalog();
-            catalog.Catalogs.Add(new DirectoryCatalog(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Plugins")));
+            catalog.Catalogs.Add(new DirectoryCatalog(AppDomain.CurrentDomain.BaseDirectory));
+            catalog.Catalogs.Add(new DirectoryCatalog(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Components")));
 
             CompositionContainer container = new CompositionContainer(catalog);
             container.ComposeParts(this);

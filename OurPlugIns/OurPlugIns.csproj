@@ -55,21 +55,12 @@
   <ItemGroup>
     <Compile Include="IOperation.cs" />
     <Compile Include="Manager.cs" />
-    <Compile Include="PluginBackUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Forms\Forms.csproj">
-      <Project>{a0fda7d3-2014-4969-b1bc-3375b1e4acda}</Project>
-      <Name>Forms</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Models\Models.csproj">
       <Project>{da159a9f-ac89-4d89-84bb-e89298fac06d}</Project>
       <Name>Models</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Service\Service.csproj">
-      <Project>{3ac1a078-9c99-463a-8080-471497f4d51d}</Project>
-      <Name>Service</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

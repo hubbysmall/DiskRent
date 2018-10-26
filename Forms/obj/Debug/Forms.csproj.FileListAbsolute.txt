@@ -81,4 +81,6 @@ D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\obj\Debug\Forms.exe
 D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\obj\Debug\Forms.pdb
 D:\1_Учеба\3 курс\КОП\DiskRent-master\Forms\obj\Debug\Forms.ComponentDisk.resources
 C:\Users\vova\source\repos\DiskRent\Forms\obj\Debug\Forms.ComponentDisk.resources
-C:\Users\vova\source\repos\DiskRent\Forms\bin\Debug\System.Composition.AttributedModel.dll
+C:\Users\vova\source\repos\DiskRent\Forms\bin\Debug\OurPlugIns.dll
+C:\Users\vova\source\repos\DiskRent\Forms\bin\Debug\OurPlugIns.pdb
+C:\Users\vova\source\repos\DiskRent\Forms\bin\Debug\OurPlugIns.dll.config

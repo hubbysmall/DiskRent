@@ -98,9 +98,6 @@
       <DependentUpon>201810111633377_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="PluginInterfaceK\IOperation.cs" />
-    <Compile Include="PluginInterfaceK\Manager.cs" />
-    <Compile Include="PluginInterfaceK\PluginBackUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RentDbContext.cs" />
   </ItemGroup>

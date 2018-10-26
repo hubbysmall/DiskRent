@@ -139,6 +139,10 @@
       <Project>{DA159A9F-AC89-4D89-84BB-E89298FAC06D}</Project>
       <Name>Models</Name>
     </ProjectReference>
+    <ProjectReference Include="..\OurPlugIns\OurPlugIns.csproj">
+      <Project>{22bf6ca4-8232-4223-a4c6-242db4f717eb}</Project>
+      <Name>OurPlugIns</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Service\Service.csproj">
       <Project>{3AC1A078-9C99-463A-8080-471497F4D51D}</Project>
       <Name>Service</Name>
